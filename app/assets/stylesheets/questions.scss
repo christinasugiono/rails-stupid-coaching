@@ -1,0 +1,38 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+$gray: rgb(197, 192, 192);
+$yellow: rgb(247, 250, 204);
+
+.card {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  margin: 14px;
+}
+
+.coach {
+  background: $yellow;
+}
+
+.rectangle {
+  margin: 0 12px 0 0;
+  width: 8px;
+  background-color: $gray;
+}
+
+.input {
+  margin-left: 0;
+}
+
+.btn-primary {
+  margin-right: 0;
+  background-color: rgb(13, 141, 216);
+  border-radius: 0 8px 8px 0;
+}
+
+a {
+  text-decoration: none;
+  &:hover {
+    color: black;
+  }
+}
